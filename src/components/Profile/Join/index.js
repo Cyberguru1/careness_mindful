@@ -74,7 +74,7 @@ const Join = () => {
       });
       navigate("/");
     } catch (error) {
-      setError(error.message);
+      setError(`${error.code.split('/').slice(-1)[0].split('-').join(' ')}`);
     }
   };
 
