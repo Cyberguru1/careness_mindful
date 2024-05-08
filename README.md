@@ -13,14 +13,6 @@ You can explore a live demo of the application [here](https://Careness.vercel.ap
 
 > Note: The Chat Moderation and AI Chat features are disabled in the live demo to avoid incurring OpenAI charges.
 
-## Presentation and Demo
-
-- [View Presentation PDF](https://github.com/hppanpaliya/Careness/raw/main/HCI%20Presentation.pdf)
-
-  
-[![Demo Video](https://img.youtube.com/vi/weAp2bFLJDM/0.jpg)](https://www.youtube.com/watch?v=weAp2bFLJDM)
-
-
 
 ## Features
 
@@ -48,15 +40,11 @@ You can explore a live demo of the application [here](https://Careness.vercel.ap
 - **Framer Motion**: For animations.
 - **Material UI**: UI component library.
   
-### Backend for AI Chatbot & Peer Chat Moderation
-
-The chatbot leverages the power of OpenAI for 24/7 support and assistance. The peer chat feature also integrates a moderation server for enhanced user safety. Find more details [here](https://github.com/hppanpaliya/openai-text-moderation-server).
-
 ## Getting Started
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/hppanpaliya/CS-545-Mental-Health-Support/
+   git clone https://github.com/cyberguru1/careness_mindful
    ```
 
 2. **Install Dependencies**
