@@ -23,8 +23,8 @@ const MobileDropdown = ({ title, items, closeDrawer }) => {
         sx={{
           cursor: "pointer",
           padding: "0 16px",
-          color: "black",
-          fontWeight: "bold",
+          fontWeight: "light",
+          color: '#909090'
         }}
       >
         {title} <ExpandMoreIcon />

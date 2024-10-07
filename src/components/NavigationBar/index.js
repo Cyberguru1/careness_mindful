@@ -11,9 +11,10 @@ import {
 import darkTheme from "../../theme/darkTheme";
 import lightTheme from "../../theme";
 
-
 const StyledAppBar = styled(AppBar)(({ theme }) => ({
   height: theme.customAppBarHeight,
+  boxShadow: 'none', 
+  borderBottom: '1px solid #D5D5D5',
 }));
 
 // Main navigation bar component
@@ -41,10 +42,10 @@ const NavigationBar = () => {
     setIsOpenMenu(false);
   };
 
-  theme.customAppBarHeight = isMobile ? "50px" : "64px";
+  theme.customAppBarHeight = isMobile ? "50px" : "68px";
 
   return (
-    <StyledAppBar position="sticky" onMouseLeave={handleMouseLeave}>
+    <StyledAppBar position="sticky" onMouseLeave={handleMouseLeave} sx={{ backgroundColor: "white" }}>
       <Toolbar>
         <NavigationBarMenu isOpenMenu={isOpenMenu} openDrawer={openDrawer} myTheme={myTheme} />
         <NavigationBarTitle />

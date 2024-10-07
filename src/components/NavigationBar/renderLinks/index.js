@@ -50,7 +50,7 @@ const renderLinks = (dropdowns, closeDrawer) => {
               }}
               onClick={closeDrawer}
             >
-              <Typography sx={{ color: "body1", fontWeight: "bold" }} key={dropdown.path}>
+              <Typography sx={{ color: "#909090", fontWeight: "light" }} key={dropdown.path}>
                 {dropdown.text}
               </Typography>
             </NavLink>

@@ -1,4 +1,9 @@
 {
+  "login": [
+    { "path": "/login", "text": "Sign in" }
+  
+  ],
+  
   "guest": [
     { "path": "/", "text": "Home" },
     {
@@ -15,9 +20,7 @@
         { "path": "/cbt", "text": "CBT Fundamentals" }
       ]
     },
-    { "path": "/profile", "text": "Settings" },
-    { "path": "/login", "text": "Login" },
-    { "path": "/join", "text": "Join" }
+    { "path": "/profile", "text": "Settings" }
   ],
   "user": [
     { "path": "/", "text": "Home" },
